@@ -100,25 +100,37 @@ Now, try to delete every file in the `runable-sh-test` folder using a `.sh` file
 
 
 
-## Git and Github
+## Git
 
 
 
 ### Initialize personal info
 
 ```bash
-git config --global user.name "Your Name"
-git config --global user.email "YourEmail@example.com"
+git config --global user.name "[Your Name]"
+git config --global user.email "[YourEmail@example.com]"
 ```
 
 
+
+### Commands
+
+```bash
+git init
+git add [target]
+git commit -m "[message]"
+```
+
+
+
+## Github
 
 ### Link your terminal to your Github account 
 
 - Genenrate SSH key
 
   - ```bash
-    ssh-keygen -t rsa -C "YourEmail@example.com"
+    ssh-keygen -t rsa -C "[YourEmail@example.com]"
     ```
 
 - Add public key to Github
@@ -140,4 +152,13 @@ git config --global user.email "YourEmail@example.com"
       ```
 
 
+
+### Commands
+
+```bash
+git clone [git@github.com:reposit.git]
+git remote add origin [git@github.com:reposit.git]
+git pull
+git push [-u] [origin] [branch]
+```
 
