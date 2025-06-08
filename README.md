@@ -98,4 +98,46 @@ Now, try to delete every file in the `runable-sh-test` folder using a `.sh` file
 
 
 
-## Git
+
+
+## Git and Github
+
+
+
+### Initialize personal info
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "YourEmail@example.com"
+```
+
+
+
+### Link your terminal to your Github account 
+
+- Genenrate SSH key
+
+  - ```bash
+    ssh-keygen -t rsa -C "YourEmail@example.com"
+    ```
+
+- Add public key to Github
+
+  - Copy the contents in `~/.ssh/id_rsa.pub`
+  - Click on head portrait $\to$ Settings $\to$ SSH and GPG keys $\to$ New SSH key
+  - Paste the public key
+
+- Test in cmd:
+
+  - ```bash
+    ssh -T git@github.com
+    ```
+
+  - it should appear to be:
+
+    - ```
+      You've successfully authenticated, but Github does not provide shell access.
+      ```
+
+
+
