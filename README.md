@@ -12,7 +12,7 @@
 
 #### Windows
 
-Open Power Shell or CMD
+Open Power Shell
 
 #### MacOS
 
