@@ -162,3 +162,6 @@ git pull
 git push [-u] [origin] [branch]
 ```
 
+
+
+Now, commit everything and push it to the assignment repository.
