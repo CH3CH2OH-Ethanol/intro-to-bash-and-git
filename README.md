@@ -12,11 +12,11 @@
 
 #### Windows
 
-Open Power Shell
+- Open Power Shell
 
 #### MacOS
 
-Open Terminal
+- Open Terminal
 
 
 
