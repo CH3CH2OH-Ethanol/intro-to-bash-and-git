@@ -119,6 +119,9 @@ git config --global user.email "[YourEmail@example.com]"
 git init
 git add [target]
 git commit -m "[message]"
+git log [--all] [--pretty=online] [--abrev-commit] [--graph]
+git reset --hard [commitID]
+git reflog
 ```
 
 
